@@ -7,9 +7,6 @@ class StoreRoutes(ListResource):
     model = Store
     schema = StoreSchema
     filter = Filter
-    #
-    # Investigar filtering o hacer filtering
-    # Investigar documentacion con swagger
 
 class StoreDetailRoutes(DetailResource):
     model = Store
